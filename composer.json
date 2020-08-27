@@ -7,7 +7,7 @@
         "guzzlehttp/guzzle": "^7.0",
         "php": "^7.4"
     },
-    "license": "GPL-2.0-or-greater",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Adam Balsam",
