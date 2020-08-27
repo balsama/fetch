@@ -1,0 +1,29 @@
+{
+    "name": "balsama/fetch",
+    "description": "Simple wrapper around Guzzle for fetching API responses.",
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "php": "^7.4"
+    },
+    "license": "GPL-2.0-or-greater",
+    "authors": [
+        {
+            "name": "Adam Balsam",
+            "email": "balsam.adam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Balsama\\": "src"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^9.3",
+        "donatj/mock-webserver": "^2.1"
+    }
+}
